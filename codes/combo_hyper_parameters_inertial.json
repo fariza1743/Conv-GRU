@@ -1,0 +1,10 @@
+{
+	"fc_layers": 2,
+	"fc_units": 64,
+	"r_units": 32,
+	"dropout": 0.2,
+	"batch_size": 32,
+	"learning_rate": 0.001,
+	"patience": 20,
+	"epochs": 200
+}
