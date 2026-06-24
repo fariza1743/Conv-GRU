@@ -9,3 +9,6 @@ Individuals with Type 1 diabetes (T1D) rely on insulin therapy to maintain tight
 <img width="10880" height="6120" alt="fig3" src="https://github.com/user-attachments/assets/3d3fcc91-5fc7-42ab-843c-998661fbfc64" />
 
 <img width="3132" height="2206" alt="image" src="https://github.com/user-attachments/assets/d66bfe07-3d08-4a2d-a4a3-ffc5e6de7776" />
+
+<img width="994" height="350" alt="image" src="https://github.com/user-attachments/assets/01f9d6e1-5a5e-468b-8b0a-47732a3258a9" />
+
