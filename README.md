@@ -1,6 +1,25 @@
 # Parameter-Efficient Convolutional GRU Network with Temporal Regularization for Personalized Prandial Recommendations in Glycemic Control
 
-Individuals with Type 1 diabetes (T1D) rely on insulin therapy to maintain tight glycemic control. Recent advances in machine learning (ML) for time series forecasting have focused on accurate blood glucose (BG) prediction, primarily for sensor-augmented pump (SAP) systems. In contrast, significant gaps remain in decision support for multiple daily insulin (MDI) injection users, particularly in delivering personalized recommendations for bolus insulin and carbohydrate intake in open-loop settings. Standard rule-based bolus advisors are suboptimal, and reinforcement learning (RL)–based approaches are limited by high physiological and glycemic variability, which makes stable policy learning difficult. This work proposes a temporally regularized convolutional gated recurrent unit (Conv-GRU) network that recommends insulin bolus doses and carbohydrate intake amounts to achieve a target BG level within a 30–90 minute prediction horizon (5-minute steps) following a meal. In addition, the model incorporates a temporal masking strategy for inducing self-regularization, which steers the proposed model to reduce temporal overfitting. Evaluated on the OhioT1DM dataset, the proposed approach consistently outperforms heuristic baselines and representative deep learning (DL) models, including Chained-LSTM and N-BEATS, achieving substantial reductions in RMSE and MAE across different recommendation scenarios. In addition, the proposed model requires 31.5\% fewer parameters than Chained-LSTM and over 90.5\% fewer parameters than N-BEATS, with a total memory footprint of only 80\,kB. These results demonstrate the potential of efficient DL models for personalized and deployable AI-driven decision support for improved glycemic control in T1D self-care.
+## Problem
+
+* People with Type 1 diabetes using multiple daily insulin injections lack personalized decision-support tools for insulin bolus and carbohydrate recommendations.
+* Existing machine-learning research mainly focuses on blood-glucose forecasting for sensor-augmented pump systems rather than open-loop MDI settings.
+* Conventional rule-based bolus advisors cannot adequately capture individual physiological and glycemic variability.
+* Reinforcement-learning approaches often struggle to learn stable policies because of highly variable glucose responses.
+* Existing deep-learning models can be computationally expensive and difficult to deploy on resource-constrained healthcare devices.
+
+## Key Achievements
+
+* Developed a temporally regularized Conv-GRU model for personalized insulin bolus and carbohydrate intake recommendations.
+* Supports blood-glucose targets over prediction horizons ranging from 30 to 90 minutes at 5-minute intervals.
+* Introduced temporal masking to reduce temporal overfitting and improve model generalization.
+* Consistently outperformed heuristic baselines, Chained-LSTM, and N-BEATS on the OhioT1DM dataset.
+* Achieved lower RMSE and MAE across multiple insulin and carbohydrate recommendation scenarios.
+* Used 31.5% fewer parameters than Chained-LSTM.
+* Used more than 90.5% fewer parameters than N-BEATS.
+* Required a total memory footprint of approximately 80 kB.
+* Demonstrated the potential for efficient and deployable AI-driven decision support for Type 1 diabetes self-care.
+
 
 <img width="3600" height="2700" alt="image" src="https://github.com/user-attachments/assets/33d2e3a2-36ae-40d1-b78c-d1845009718b" />
 
