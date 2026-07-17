@@ -109,4 +109,4 @@ Conv-GRU/
 <br> <br>
 
 ## How to run the code
-There are two recommendation scenarios: general recommendation and without bolus recommendation. To run the general recommendation, copy the pkl file from data/processed and paste it inside src. Run the pipeline.ipynb. For the without-bolus-recommendation scenario, copy the okl file from data/processed_without_bolus and paste it inside src, and run the pipeline.ipynb. All the hypermeter files and modules are inside src. Make sure to use it as an active folder. 
+There are two recommendation scenarios: general recommendation and without bolus recommendation. To run the general recommendation, copy the pkl files from data/processed and paste them inside src. Run the pipeline.ipynb. For the without-bolus-recommendation scenario, copy the pkl files from data/processed_without_bolus and paste them inside src, and run the pipeline.ipynb. All the hypermeter files and modules are inside src. Make sure to use it as an active folder. 
