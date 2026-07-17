@@ -89,16 +89,19 @@ within a 30–90 minute post-meal horizon.
 
 ```text
 Conv-GRU/
-├── codes/
+├── src/
 │   ├── model.py                  # Conv-GRU model architecture
-│   ├── pretrain.py               # Pretraining procedure
+│   ├── pretrain.py               # Model pretraining
 │   ├── finetune.py               # Subject-specific fine-tuning
 │   ├── testing.py                # Model evaluation
 │   ├── run.py                    # Main experiment runner
-│   ├── baselines.py              # Heuristic and deep-learning baselines
-│   ├── load_data.py              # Dataset loading and preprocessing
-│   ├── split_data.py             # Dataset split generation
+│   ├── baselines.py              # Baseline implementations
+│   ├── load_data.py              # Data loading and preprocessing
+│   ├── split_data.py             # Dataset splitting
 │   └── *_hyper_parameters.json   # Experiment configurations
-├── pkl files/                    # Processed experiment data
-├── without bolus pkl files/      # Data for the no-bolus setting
-└── README.md
+├── data/
+│   ├── processed/                # Processed experimental data
+│   └── processed_without_bolus/  # Processed no-bolus data
+├── README.md
+└── requirements.txt
+```
