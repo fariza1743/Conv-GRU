@@ -19,11 +19,16 @@
 * Used more than 90.5% fewer parameters than N-BEATS.
 * Required a total memory footprint of approximately 80 kB.
 * Demonstrated the potential for efficient and deployable AI-driven decision support for Type 1 diabetes self-care.
+<br> <br>
 
+## Model Architecture
 
 <img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/33d2e3a2-36ae-40d1-b78c-d1845009718b" />
 
 <img width="3600" height="2700" alt="image" src="https://github.com/user-attachments/assets/fdb19ff9-3af8-4a74-9263-5e3e0e160194" />
+
+<br> <br> 
+## Experimental Results
 
 <img width="10880" height="6120" alt="fig3" src="https://github.com/user-attachments/assets/3d3fcc91-5fc7-42ab-843c-998661fbfc64" />
 
