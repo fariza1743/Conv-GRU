@@ -24,12 +24,13 @@
 ## Model Architecture
 
 <p align="center">
-  <img width="700" alt="Conv-GRU model architecture" src="..." />
+  <img
+    width="700"
+    alt="Conv-GRU model architecture"
+    src="https://github.com/user-attachments/assets/33d2e3a2-36ae-40d1-b78c-d1845009718b"
+  />
 </p>
 
-<p align="center">
-  <em>Overview of the proposed temporally regularized Conv-GRU architecture.</em>
-</p>
 
 <p align="center">
   <img
@@ -37,6 +38,9 @@
     alt="Temporal regularization architecture"
     src="https://github.com/user-attachments/assets/fdb19ff9-3af8-4a74-9263-5e3e0e160194"
   />
+</p>
+<p align="center">
+  <em>Overview of the proposed temporally regularized Conv-GRU architecture.</em>
 </p>
 
 <br><br>
@@ -59,6 +63,12 @@
     alt="Performance comparison"
     src="https://github.com/user-attachments/assets/d66bfe07-3d08-4a2d-a4a3-ffc5e6de7776"
   />
+</p>
+<p align="center">
+  <em>
+    Comparison of recommendation errors across prediction horizons and
+    recommendation scenarios.
+  </em>
 </p>
 
 <br>
