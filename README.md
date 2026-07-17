@@ -2,8 +2,8 @@
 This repository provides the implementation of a parameter-efficient temporally regularized Conv-GRU network for personalized prandial
 recommendations in Type 1 diabetes. The model recommends insulin bolus and carbohydrate intake amounts to achieve a target blood glucose level
 within a 30–90 minute post-meal horizon.
-<br>
-This work has been accepted in IEEE EMBC 2026. Will be presenting my work on July 29 in Toronto. 
+<br> <br>
+* This work has been accepted in IEEE EMBC 2026. Will be presenting my work on July 29 in Toronto. 
 ## Problem
 
 * People with Type 1 diabetes using multiple daily insulin injections lack personalized decision-support tools for insulin bolus and carbohydrate recommendations.
