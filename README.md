@@ -51,6 +51,8 @@
   />
 </p>
 
+<br>
+
 <p align="center">
   <img
     width="750"
@@ -58,6 +60,8 @@
     src="https://github.com/user-attachments/assets/d66bfe07-3d08-4a2d-a4a3-ffc5e6de7776"
   />
 </p>
+
+<br>
 
 <p align="center">
   <img
