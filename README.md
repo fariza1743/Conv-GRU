@@ -24,11 +24,11 @@
 ## Model Architecture
 
 <p align="center">
-  <img
-    width="700"
-    alt="Conv-GRU model architecture"
-    src="https://github.com/user-attachments/assets/33d2e3a2-36ae-40d1-b78c-d1845009718b"
-  />
+  <img width="700" alt="Conv-GRU model architecture" src="..." />
+</p>
+
+<p align="center">
+  <em>Overview of the proposed temporally regularized Conv-GRU architecture.</em>
 </p>
 
 <p align="center">
