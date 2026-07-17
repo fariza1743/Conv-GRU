@@ -1,5 +1,7 @@
 # Parameter-Efficient Convolutional GRU Network with Temporal Regularization for Personalized Prandial Recommendations in Glycemic Control
-
+This repository provides the implementation of a parameter-efficient temporally regularized Conv-GRU network for personalized prandial
+recommendations in Type 1 diabetes. The model recommends insulin bolus and carbohydrate intake amounts to achieve a target blood glucose level
+within a 30–90 minute post-meal horizon.
 ## Problem
 
 * People with Type 1 diabetes using multiple daily insulin injections lack personalized decision-support tools for insulin bolus and carbohydrate recommendations.
@@ -80,3 +82,23 @@
     src="https://github.com/user-attachments/assets/01f9d6e1-5a5e-468b-8b0a-47732a3258a9"
   />
 </p>
+
+<br><br>
+
+## Repository Structure
+
+```text
+Conv-GRU/
+├── codes/
+│   ├── model.py                  # Conv-GRU model architecture
+│   ├── pretrain.py               # Pretraining procedure
+│   ├── finetune.py               # Subject-specific fine-tuning
+│   ├── testing.py                # Model evaluation
+│   ├── run.py                    # Main experiment runner
+│   ├── baselines.py              # Heuristic and deep-learning baselines
+│   ├── load_data.py              # Dataset loading and preprocessing
+│   ├── split_data.py             # Dataset split generation
+│   └── *_hyper_parameters.json   # Experiment configurations
+├── pkl files/                    # Processed experiment data
+├── without bolus pkl files/      # Data for the no-bolus setting
+└── README.md
