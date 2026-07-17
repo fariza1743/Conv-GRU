@@ -23,16 +23,46 @@
 
 ## Model Architecture
 
-<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/33d2e3a2-36ae-40d1-b78c-d1845009718b" />
+<p align="center">
+  <img
+    width="700"
+    alt="Conv-GRU model architecture"
+    src="https://github.com/user-attachments/assets/33d2e3a2-36ae-40d1-b78c-d1845009718b"
+  />
+</p>
 
-<img width="3600" height="2700" alt="image" src="https://github.com/user-attachments/assets/fdb19ff9-3af8-4a74-9263-5e3e0e160194" />
+<p align="center">
+  <img
+    width="700"
+    alt="Temporal regularization architecture"
+    src="https://github.com/user-attachments/assets/fdb19ff9-3af8-4a74-9263-5e3e0e160194"
+  />
+</p>
 
-<br> <br> 
+<br><br>
+
 ## Experimental Results
 
-<img width="10880" height="6120" alt="fig3" src="https://github.com/user-attachments/assets/3d3fcc91-5fc7-42ab-843c-998661fbfc64" />
+<p align="center">
+  <img
+    width="800"
+    alt="Experimental results"
+    src="https://github.com/user-attachments/assets/3d3fcc91-5fc7-42ab-843c-998661fbfc64"
+  />
+</p>
 
-<img width="3132" height="2206" alt="image" src="https://github.com/user-attachments/assets/d66bfe07-3d08-4a2d-a4a3-ffc5e6de7776" />
+<p align="center">
+  <img
+    width="750"
+    alt="Performance comparison"
+    src="https://github.com/user-attachments/assets/d66bfe07-3d08-4a2d-a4a3-ffc5e6de7776"
+  />
+</p>
 
-<img width="994" height="350" alt="image" src="https://github.com/user-attachments/assets/01f9d6e1-5a5e-468b-8b0a-47732a3258a9" />
-
+<p align="center">
+  <img
+    width="650"
+    alt="Model size and parameter comparison"
+    src="https://github.com/user-attachments/assets/01f9d6e1-5a5e-468b-8b0a-47732a3258a9"
+  />
+</p>
